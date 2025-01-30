@@ -1,9 +1,9 @@
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 
+import { VueTelegramPlugin } from 'vue-tg'
 import App from './App.vue'
 import router from './router'
-import { VueTelegramPlugin } from 'vue-tg'
 
 const app = createApp(App)
 
