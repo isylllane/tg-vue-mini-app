@@ -27,6 +27,7 @@
 </template>
 
 <script>
+
 const tg = window.Telegram.WebApp;
 const user = tg.initDataUnsafe?.user;
 const queryId = tg.initDataUnsafe?.query_id;
